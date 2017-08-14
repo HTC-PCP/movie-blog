@@ -1,0 +1,395 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    width: 100%;
+}
+
+article {
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0 20px 0;
+}
+
+article h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+article .meta {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+}
+
+article .readmore {
+    background: #f4f4f4;
+    color: #000;
+    width: 97%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+article .readmore:hover {
+    background: #ccc;
+}
+
+video {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.meta span {
+    float: right;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-header {
+    height: 50px;
+    background: #333;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+#main-header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#main-nav a {
+    color: white;
+    padding: 0 40px 0 0;
+    margin: 4px 0 0 0;
+}
+
+#branding {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+#branding h1 {
+    padding: 4px 0 0 120px;
+    margin: 0px;
+    color: white;
+    white-space: nowrap;
+}
+
+#branding img {
+    position: absolute;
+    width: 60px;
+    height: auto;
+}
+
+#content {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+}
+
+.search input[type="search"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 20px;
+    padding: 13px;
+    width: 75%;
+    margin-bottom: 15px;
+}
+
+.search input[type="image"] {
+    width: 10%;
+    position: relative;
+    top: 8px;
+    margin-left: 7px
+}
+
+#sidebar {
+    width: 30%;
+}
+
+#sub-nav li {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    border-bottom: dotted 1px #333;
+}
+
+#sub-nav a:hover, #sub-nav a:active {
+    color: #ff0000;
+}
+
+.ad img {
+    width: 100%;
+}
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    min-height: 180px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+#main-footer .container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#main-footer .footer-nav {
+    font-size: 15px;
+    padding: 20px 0 20px 0;
+    margin-right: 10px;
+    width: 30%;
+}
+
+#main-footer .footer-nav li {
+    padding: 5px 0 5px 0;
+    border-bottom: dotted #666 1px;
+}
+
+#main-footer .copy {
+    padding: 20px 0 0 0;
+}
+
+#main-footer a {
+    color: #fff;
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

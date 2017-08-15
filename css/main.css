@@ -53,7 +53,7 @@ textarea {
 
 
 /* ==========================================================================
-   Author's custom styles
+   index.html
    ========================================================================== */
 body {
     margin: 0px;
@@ -78,6 +78,7 @@ li {
 }
 
 p {
+    color: #333;
     width: 100%;
 }
 
@@ -264,6 +265,97 @@ video {
     display: flex;
     flex-direction: row;
     width: 60%;
+}
+
+.copy {
+    color: #fff;
+}
+
+/* ==========================================================================
+   single-post.html
+   ========================================================================== */
+
+#comments {
+    margin-top: 50px;
+}
+
+.user-comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-left {
+    width: 8%;
+}
+
+.comment-right {
+    margin-left: 15px;
+}
+
+.comment-left img {
+    width: 100%;
+}
+
+.contact-form {
+    margin-top: 20px;
+    padding: 5px 20px 10px 20px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.contact-form h3 {
+     color: #fff;
+}
+
+.contact-form p {
+     color: #fff;
+}
+
+.contact-form input[type='text'], .contact-form input[type='email'] {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.contact-form textarea {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    width: 97%;
+}
+
+.contact-form button {
+     padding: 10px;
+     border-radius: 6px;
+}
+
+/* ==========================================================================
+   add-post.html
+   ========================================================================== */
+
+.add-form input[type='text'] {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form select {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px;
+    width: 98%;
+}
+
+.add-form textarea {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    width: 97%;
 }
 
 
